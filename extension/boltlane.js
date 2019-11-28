@@ -1,1 +1,1 @@
-﻿console.log("Testing")
+﻿var link = window.locationvar domain = link.hostnameconsole.log(domain)

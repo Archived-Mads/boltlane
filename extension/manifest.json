@@ -2,11 +2,14 @@
   "manifest_version": 2,
   "name": "boltlane",
   "description": "Personal offline password manager",
-  "version": "0.1",
+  "version": "0.2",
   "browser_action": {
   "default_icon": "popup/icon.png",
   "default_popup": "popup/popup.html"
 },
+  "permissions": [
+      "tabs"
+  ],
   "content_scripts": [
   {
     "matches": [
